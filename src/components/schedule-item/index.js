@@ -11,7 +11,9 @@ const ScheduleItem = ({session}) => {
             style={{'grid-row-end': `span ${session.span || 1}`}}
         >
             <h2 class={style.title}>{data.title}</h2>
-            <p class={style.duration}>{session.duration}</p>
+            <p class={style.duration}>
+                {session.duration} {session.venue && <span>@ {session.venue}</span>}
+            </p>
 
             {data.speakers && (
                 <div class={style.speakers}>

@@ -32,65 +32,80 @@
   "13:00": [{
     "duration": "60 mins",
     "session": "107",
-    "span": 4
+    "span": 4,
+    "venue": "Breakout A"
   }, {
     "duration": "60 mins",
     "session": "111",
-    "span": 4
+    "span": 4,
+    "venue": "Breakout B"
   }, {
     "duration": "75 mins",
     "session": "115",
-    "span": 5
+    "span": 5,
+    "venue": "Breakout C"
   }, {
     "duration": "2 hours",
     "session": "119",
-    "span": 8
+    "span": 8,
+    "venue": "Breakout D"
   }],
   "14:00": [{
     "duration": "60 mins",
     "session": "108",
-    "span": 4
+    "span": 4,
+    "venue": "Breakout A"
   }, {
     "duration": "75 mins",
     "session": "114",
-    "span": 5
+    "span": 5,
+    "venue": "Breakout B"
   }],
   "14:15": [{
     "duration": "60 mins",
     "session": "116",
-    "span": 4
+    "span": 4,
+    "venue": "Breakout C"
   }],
   "15:00": [{
     "duration": "75 mins",
     "session": "109",
-    "span": 5
+    "span": 5,
+    "venue": "Breakout A"
   }, {
     "duration": "2 hours",
     "session": "120",
-    "span": "8"
+    "span": "8",
+    "venue": "Breakout D"
   }],
   "15:15": [{
     "duration": "75 mins",
     "session": "113",
-    "span": 5
+    "span": 5,
+    "venue": "Breakout B"
   }, {
     "duration": "90 mins",
     "session": "117",
-    "span": 6
+    "span": 6,
+    "venue": "Breakout C"
   }],
   "16:15": [{
     "duration": "75 mins",
     "session": "110",
-    "span": 5
-  }, {
+    "span": 5,
+    "venue": "Breakout A"
+  }],
+  "16:30": [{
     "duration": "60 mins",
     "session": "112",
-    "span": 4
+    "span": 4,
+    "venue": "Breakout B"
   }],
   "16:45": [{
     "duration": "45 mins",
     "session": "118",
-    "span": 3
+    "span": 3,
+    "venue": "Breakout C"
   }],
   "17:30": [{
     "duration": "15 mins",
