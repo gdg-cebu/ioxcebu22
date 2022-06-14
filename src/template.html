@@ -1,41 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>I/O Extended 2019 Cebu</title>
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <meta name="mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <link rel="manifest" href="<%= htmlWebpackPlugin.files.publicPath %>manifest.json">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans:400,500,700&display=swap">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <% if (htmlWebpackPlugin.options.manifest.theme_color) { %>
-            <meta name="theme-color" content="<%= htmlWebpackPlugin.options.manifest.theme_color %>">
-        <% } %>
-        <% for (var chunk of webpack.chunks) { %>
-         <% if (chunk.names.length === 1 && chunk.names[0] === 'polyfills') continue; %>
-            <% for (var file of chunk.files) { %>
-                <% if (htmlWebpackPlugin.options.preload && file.match(/\.(js|css)$/)) { %>
-                    <link rel="preload" href="<%= htmlWebpackPlugin.files.publicPath + file %>" as="<%= file.match(/\.css$/)?'style':'script' %>">
-                <% } else if (file.match(/manifest\.json$/)) { %>
-                    <link rel="manifest" href="<%= htmlWebpackPlugin.files.publicPath + file %>">
-                <% } %>
-            <% } %>
-        <% } %>
+  <head>
+    <meta charset="utf-8" />
+    <title>I/O Extended 2022 Cebu</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="manifest" href="<%= htmlWebpackPlugin.files.publicPath %>manifest.json" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Google+Sans:400,500,700&display=swap"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <% if (htmlWebpackPlugin.options.manifest.theme_color) { %>
+    <meta name="theme-color" content="<%= htmlWebpackPlugin.options.manifest.theme_color %>" />
+    <% } %> <% for (var chunk of webpack.chunks) { %> <% if (chunk.names.length === 1 &&
+    chunk.names[0] === 'polyfills') continue; %> <% for (var file of chunk.files) { %> <% if
+    (htmlWebpackPlugin.options.preload && file.match(/\.(js|css)$/)) { %>
+    <link
+      rel="preload"
+      href="<%= htmlWebpackPlugin.files.publicPath + file %>"
+      as="<%= file.match(/\.css$/)?'style':'script' %>"
+    />
+    <% } else if (file.match(/manifest\.json$/)) { %>
+    <link rel="manifest" href="<%= htmlWebpackPlugin.files.publicPath + file %>" />
+    <% } %> <% } %> <% } %>
 
-        <meta property="og:title" content="Google I/O Extended 2019 Cebu">
-        <meta property="og:description" content="I/O brings together developers from around the globe for talks, hands-on learning with Google experts, and a first look at Google’s latest developer products.">
-        <meta property="og:image" content="https://iox.gdgcebu.org/assets/social-share.jpg">
-        <meta property="og:url" content="https://iox.gdgcebu.org/">
-        <meta name="description" content="I/O brings together developers from around the globe for talks, hands-on learning with Google experts, and a first look at Google’s latest developer products.">
-        <meta name="twitter:card" content="summary_large_image">
-    </head>
+    <meta property="og:title" content="Google I/O Extended 2022 Cebu" />
+    <meta
+      property="og:description"
+      content="I/O brings together developers from around the globe for talks, hands-on learning with Google experts, and a first look at Google’s latest developer products."
+    />
+    <meta property="og:image" content="https://iox.gdgcebu.org/assets/social-share.jpg" />
+    <meta property="og:url" content="https://iox.gdgcebu.org/" />
+    <meta
+      name="description"
+      content="I/O brings together developers from around the globe for talks, hands-on learning with Google experts, and a first look at Google’s latest developer products."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
 
-    <body>
-        <%= htmlWebpackPlugin.options.ssr({
-            url: '/'
-        }) %>
-        <script defer src="<%= htmlWebpackPlugin.files.chunks['bundle'].entry %>"></script>
-        <script>window.fetch||document.write('<script src="<%= htmlWebpackPlugin.files.chunks["polyfills"].entry %>"><\/script>')</script>
-    </body>
+  <body>
+    <%= htmlWebpackPlugin.options.ssr({ url: '/' }) %>
+    <script defer src="<%= htmlWebpackPlugin.files.chunks['bundle'].entry %>"></script>
+    <script>
+      window.fetch ||
+        document.write(
+          '<script src="<%= htmlWebpackPlugin.files.chunks["polyfills"].entry %>"><\/script>',
+        );
+    </script>
+  </body>
 </html>

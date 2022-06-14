@@ -1,28 +1,19 @@
 {
   "101": {
     "title": "Opening and Introduction",
-    "speakers": [
-      "frances-marie-teves"
-    ]
+    "speakers": ["frances-marie-teves"]
   },
   "102": {
-    "title": "Keynote: Google I/O 2019 Keynote",
-    "speakers": [
-      "julius-uy"
-    ]
+    "title": "Keynote: Google I/O 2022 Keynote",
+    "speakers": ["julius-uy"]
   },
   "103": {
     "title": "Keynote: Now Anyone Can Build An App",
-    "speakers": [
-      "albert-padin"
-    ]
+    "speakers": ["albert-padin"]
   },
   "104": {
     "title": "The Google I/O Experience",
-    "speakers": [
-      "frances-marie-teves",
-      "franchette-camoro"
-    ]
+    "speakers": ["frances-marie-teves", "franchette-camoro"]
   },
   "105": {
     "title": "Morning Session Remarks & Group Photo"
@@ -32,94 +23,63 @@
   },
   "107": {
     "title": "Flutter: An Introduction",
-    "speakers": [
-      "sean-urgel"
-    ]
+    "speakers": ["sean-urgel"]
   },
   "108": {
     "title": "Kotlin Coroutines for Android Developers",
-    "speakers": [
-      "desmond-teo"
-    ]
+    "speakers": ["desmond-teo"]
   },
   "109": {
     "title": "Jetpack Compose",
-    "speakers": [
-      "steve-seongug-jung"
-    ]
+    "speakers": ["steve-seongug-jung"]
   },
   "110": {
     "title": "Android Q and the Advances in Video Codecs",
-    "speakers": [
-      "julius-uy"
-    ]
+    "speakers": ["julius-uy"]
   },
   "111": {
     "title": "What's new in Chrome and the Web",
-    "speakers": [
-      "arnelle-balane"
-    ]
+    "speakers": ["arnelle-balane"]
   },
   "112": {
     "title": "Building a social media wall with Firebase and GCP",
-    "speakers": [
-      "shang-yi-lim"
-    ]
+    "speakers": ["shang-yi-lim"]
   },
   "113": {
     "title": "Bringing your PWA to the Google Play Store with TWA",
-    "speakers": [
-      "henry-lim"
-    ]
+    "speakers": ["henry-lim"]
   },
   "114": {
     "title": "Building a Fast and SEO Friendly SPA",
-    "speakers": [
-      "jecelyn-yeen"
-    ]
+    "speakers": ["jecelyn-yeen"]
   },
   "115": {
     "title": "Building engaging experiences with Actions on Google",
-    "speakers": [
-      "dennis-alund"
-    ]
+    "speakers": ["dennis-alund"]
   },
   "116": {
     "title": "Assistant: Building your Smart Home",
-    "speakers": [
-      "franchette-camoro"
-    ]
+    "speakers": ["franchette-camoro"]
   },
   "117": {
     "title": "TensorFlow Lite: On-Device ML and the Model Optimization Toolkit",
-    "speakers": [
-      "jason-zaman"
-    ]
+    "speakers": ["jason-zaman"]
   },
   "118": {
     "title": "Machine Learning for JavaScript Applications",
-    "speakers": [
-      "ren-stanforth"
-    ]
+    "speakers": ["ren-stanforth"]
   },
   "119": {
     "title": "Workshop on Machine Learning and TensorFlow",
-    "speakers": [
-      "albert-padin"
-    ]
+    "speakers": ["albert-padin"]
   },
   "120": {
     "title": "All About Flutter, Workshop on Flutter (Zero to Hero)",
-    "speakers": [
-      "sean-urgel"
-    ]
+    "speakers": ["sean-urgel"]
   },
   "121": {
     "title": "Women Techmakers: #IAmRemarkable",
-    "speakers": [
-      "frances-marie-teves",
-      "franchette-camoro"
-    ]
+    "speakers": ["frances-marie-teves", "franchette-camoro"]
   },
   "122": {
     "title": "Raffle and Closing Remarks"

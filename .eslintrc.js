@@ -1,0 +1,118 @@
+module.exports = {
+  env: {
+    browser: true,
+    es2021: true,
+  },
+  extends: ['airbnb-base'],
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+  },
+  rules: {
+    'array-bracket-spacing': ['error', 'never'],
+    'arrow-body-style': ['error', 'as-needed'],
+    'arrow-parens': ['error', 'always'],
+    'brace-style': 'error',
+    'comma-dangle': [
+      'error',
+      {
+        arrays: 'always-multiline',
+        exports: 'always-multiline',
+        functions: 'only-multiline',
+        imports: 'always-multiline',
+        objects: 'always-multiline',
+      },
+    ],
+    'comma-spacing': ['error', { after: true, before: false }],
+    curly: 'error',
+    'eol-last': ['error', 'always'],
+    eqeqeq: ['error', 'always'],
+    'func-names': 'error',
+    'import/no-extraneous-dependencies': 'error',
+    'import/no-unresolved': 'error',
+    'import/order': [
+      'error',
+      {
+        alphabetize: {
+          order: 'asc',
+        },
+        groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
+        'newlines-between': 'always-and-inside-groups',
+      },
+    ],
+    indent: ['error', 2, { SwitchCase: 1 }],
+    'jsx-quotes': ['error', 'prefer-double'],
+    'key-spacing': ['error', { mode: 'strict' }],
+    'max-depth': ['error', 3],
+    'max-len': [
+      'error',
+      {
+        code: 125,
+        ignoreComments: true,
+        ignoreStrings: true,
+        ignoreTemplateLiterals: true,
+      },
+    ],
+    'max-params': ['error', 3],
+    'multiline-comment-style': 'off',
+    'no-alert': 'error',
+    'no-console': 'warn',
+    'no-duplicate-imports': 'error',
+    'no-empty-function': 'warn',
+    'no-extra-boolean-cast': 'warn',
+    'no-extra-semi': 'warn',
+    'no-magic-numbers': [
+      'error',
+      {
+        ignore: [-1, 0, 1, 2, 30, 60, 100, 1000],
+        ignoreArrayIndexes: true,
+      },
+    ],
+    'no-multi-spaces': 'warn',
+    'no-multiple-empty-lines': ['error', { max: 1, maxEOF: 0 }],
+    'no-plusplus': 'warn',
+    'no-trailing-spaces': 'warn',
+    'no-unreachable': 'error',
+    'no-unused-expressions': 'warn',
+    'no-unused-vars': ['warn', { args: 'none' }],
+    'no-use-before-define': 'off',
+    'no-var': 'error',
+    'padding-line-between-statements': [
+      'error',
+      { blankLine: 'always', next: 'return', prev: '*' },
+    ],
+    'prefer-arrow-callback': 'warn',
+    'prefer-const': 'error',
+    'prettier/prettier': ['error', prettierOptions],
+    quotes: ['error', 'single', { avoidEscape: true }],
+    semi: ['error', 'always'],
+    'semi-spacing': ['error', { after: true, before: false }],
+    'sonarjs/cognitive-complexity': ['error', 30],
+    'sort-keys': [
+      'error',
+      'asc',
+      {
+        caseSensitive: false,
+        minKeys: 2,
+        natural: false,
+      },
+    ],
+    'space-before-blocks': 'error',
+    'space-before-function-paren': [
+      'error',
+      { anonymous: 'always', asyncArrow: 'always', named: 'never' },
+    ],
+    'space-in-parens': ['error', 'never'],
+  },
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+      typescript: {},
+    },
+    react: {
+      version: '17.0.2',
+    },
+  },
+};

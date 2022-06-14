@@ -5,12 +5,12 @@ import PartnersBlock from '../../components/partners-block';
 import style from './style';
 
 const Home = () => (
-    <div class={style.home}>
-        <HeroBlock />
-        <InfoBlock />
-        <PhotoGrid />
-        <PartnersBlock />
-    </div>
+  <div class={style.home}>
+    <HeroBlock />
+    <InfoBlock />
+    <PhotoGrid />
+    <PartnersBlock />
+  </div>
 );
 
 export default Home;

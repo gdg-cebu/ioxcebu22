@@ -1,21 +1,21 @@
 .footer {
-    padding: 20px 24px;
-    background-color: #fafafa;
+  padding: 20px 24px;
+  background-color: #fafafa;
 }
 
 .footer picture {
-    display: block;
-    max-height: 60px;
-    margin: 0 auto;
+  display: block;
+  max-height: 60px;
+  margin: 0 auto;
 }
 
 @media (min-width: 840px) {
-    .footer {
-        padding: 20px 100px;
-    }
+  .footer {
+    padding: 20px 100px;
+  }
 
-    .footer picture {
-        max-height: 80px;
-        margin: 0;
-    }
+  .footer picture {
+    max-height: 80px;
+    margin: 0;
+  }
 }

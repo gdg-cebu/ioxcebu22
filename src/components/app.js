@@ -12,26 +12,26 @@ import SocialBlock from './social-block';
 // import Profile from 'async!../routes/profile';
 
 export default class App extends Component {
-    state = {
-        currentPath: '/'
-    };
+  state = {
+    currentPath: '/',
+  };
 
-    handleRoute = e => this.setState({currentPath: e.url});
+  handleRoute = (e) => this.setState({ currentPath: e.url });
 
-	render() {
-		return (
-			<div id="app">
-                <Header currentRoute={this.state.currentPath} />
-				<Router onChange={this.handleRoute}>
-					<Home path="/" />
-                    <Speakers path="/speakers/" />
-                    <Schedule path="/schedule/" />
-					<NotFound default />
-				</Router>
+  render() {
+    return (
+      <div id="app">
+        <Header currentRoute={this.state.currentPath} />
+        <Router onChange={this.handleRoute}>
+          <Home path="/" />
+          <Speakers path="/speakers/" />
+          <Schedule path="/schedule/" />
+          <NotFound default />
+        </Router>
 
-                <SocialBlock />
-                <Footer />
-			</div>
-		);
-	}
+        <SocialBlock />
+        <Footer />
+      </div>
+    );
+  }
 }

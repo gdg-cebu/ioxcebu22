@@ -1,81 +1,81 @@
 .photoGrid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, minmax(250px, 1fr));
-    grid-template-areas:
-        ". . ."
-        ". . ."
-        ". content content";
-    grid-gap: 2px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, minmax(250px, 1fr));
+  grid-template-areas:
+    '. . .'
+    '. . .'
+    '. content content';
+  grid-gap: 2px;
 
-    height: calc(100vh + 160px);
-    padding: 50px 0;
+  height: calc(100vh + 160px);
+  padding: 50px 0;
 }
 
 .photoGrid picture {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .photoGrid img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center center;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
 }
 
 .content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 
-    grid-area: content;
-    grid-column-end: span 2;
-    padding: 48px;
+  grid-area: content;
+  grid-column-end: span 2;
+  padding: 48px;
 }
 
 .content h3 {
-    margin: 0;
+  margin: 0;
 }
 
 .content a {
-    margin-top: auto;
-    text-decoration: none;
+  margin-top: auto;
+  text-decoration: none;
 }
 
 @media (max-width: 839px) {
-    .photoGrid picture:nth-child(1) {
-        grid-column-end: span 3;
-    }
+  .photoGrid picture:nth-child(1) {
+    grid-column-end: span 3;
+  }
 
-    .photoGrid picture:nth-child(2) {
-        grid-column-end: span 2;
-    }
+  .photoGrid picture:nth-child(2) {
+    grid-column-end: span 2;
+  }
 
-    .photoGrid picture:nth-child(4) ~ picture {
-        display: none;
-    }
+  .photoGrid picture:nth-child(4) ~ picture {
+    display: none;
+  }
 }
 
 @media (min-width: 840px) {
-    .photoGrid {
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-areas:
-            ". . . . ."
-            ". content content . ."
-            ". . . . .";
+  .photoGrid {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas:
+      '. . . . .'
+      '. content content . .'
+      '. . . . .';
 
-        padding: 80px 2px;
-    }
+    padding: 80px 2px;
+  }
 
-    .photoGrid picture:nth-child(1),
-    .photoGrid picture:nth-child(2),
-    .photoGrid picture:nth-child(6),
-    .photoGrid picture:nth-child(8) {
-        grid-column-end: span 2;
-    }
+  .photoGrid picture:nth-child(1),
+  .photoGrid picture:nth-child(2),
+  .photoGrid picture:nth-child(6),
+  .photoGrid picture:nth-child(8) {
+    grid-column-end: span 2;
+  }
 
-    .photoGrid picture:nth-child(3) {
-        grid-row-end: span 2;
-    }
+  .photoGrid picture:nth-child(3) {
+    grid-row-end: span 2;
+  }
 }

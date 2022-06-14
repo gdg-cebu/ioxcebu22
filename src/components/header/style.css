@@ -1,80 +1,80 @@
 .topAppBar {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .navigation {
-    display: none;
-    padding-right: 100px;
+  display: none;
+  padding-right: 100px;
 }
 
 .link {
-    padding: 8px 12px;
-    border-radius: 8px;
-    font-size: 16px;
-    text-decoration: none;
-    color: #5f6368;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #5f6368;
 }
 
 .link:not(.linkActive):hover,
 .link:not(.linkActive):focus {
-    background-color: #f4f8ff;
+  background-color: #f4f8ff;
 }
 
 .linkActive {
-    color: var(--primary-color-dark);
-    background-color: var(--primary-color-light);
+  color: var(--primary-color-dark);
+  background-color: var(--primary-color-light);
 }
 
 .link:not(:first-child) {
-    margin-left: 8px;
+  margin-left: 8px;
 }
 
 .drawer :global(.mdc-drawer) {
-    width: 300px;
-    max-width: 300px;
+  width: 300px;
+  max-width: 300px;
 }
 
 .drawerHeader {
-    padding: 24px;
-    padding-bottom: 12px;
-    border-bottom: 1px solid #dadce0;
+  padding: 24px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #dadce0;
 }
 
 .drawerHeader img {
-    width: 70px;
-    margin-bottom: 12px;
+  width: 70px;
+  margin-bottom: 12px;
 }
 
 .drawerHeader h2,
 .drawerHeader h3 {
-    margin: 0;
-    font-weight: 400;
+  margin: 0;
+  font-weight: 400;
 }
 
 .drawerHeader h2 {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .drawerHeader h3 {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .drawer :global(.mdc-list-item) {
-    font-size: 15px;
-    font-weight: 400;
-    color: #444;
+  font-size: 15px;
+  font-weight: 400;
+  color: #444;
 }
 
 .drawer :global(.mdc-list-item--activated) {
-    color: var(--primary-color-dark);
+  color: var(--primary-color-dark);
 }
 
 @media (min-width: 840px) {
-    .icon {
-        display: none;
-    }
+  .icon {
+    display: none;
+  }
 
-    .navigation {
-        display: inline-flex;
-    }
+  .navigation {
+    display: inline-flex;
+  }
 }
