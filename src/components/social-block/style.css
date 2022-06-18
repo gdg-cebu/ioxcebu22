@@ -37,6 +37,10 @@
   background-image: url('../../images/twitter.svg');
 }
 
+.social a:global(.instagram) {
+  background-image: url('../../images/instagram.svg');
+}
+
 .social a:global(.meetup) {
   background-image: url('../../images/meetup.svg');
 }
