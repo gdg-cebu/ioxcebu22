@@ -24,12 +24,12 @@ const SocialBlock = () => (
           Twitter
         </a>
         <a
-          href="https://www.meetup.com/GDGCebu/"
+          href="https://www.instagram.com/gdgcebu/"
           target="_blank"
           rel="noopener noreferrer"
-          class="meetup"
+          class="instagram"
         >
-          Meetup
+          Instagram
         </a>
       </div>
     </div>
