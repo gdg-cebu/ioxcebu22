@@ -11,14 +11,14 @@ const HeroBlock = () => (
         Google experts, and a first look at Google’s latest developer products.
       </h2>
 
-      <h3>July 2, 2022 &middot; J Centre, Mandaue City</h3>
+      <h3>July 2, 2022 &middot; The Company Cebu, Mandaue City</h3>
 
-      <ButtonLink href="https://www.eventbrite.com/e/google-io-extended-cebu-2022-tickets-63569676614">
+      <ButtonLink href="https://bit.ly/GoogleIOCebuRegistration">
         Register Now
       </ButtonLink>
     </div>
 
-    <img class={style.heroImage} src="/assets/hero-image.jpg" alt="Google I/O Extended Cebu 2022" />
+    <img class={style.heroImage} src="/assets/hero-image-2019.jpg" alt="Google I/O Extended Cebu 2022" />
   </section>
 );
 
