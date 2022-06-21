@@ -43,7 +43,7 @@ const PhotoGrid = () => (
         hands-on learning sessions, and after-hours fun.
       </p>
 
-      <ButtonLink href="https://photos.google.com/share/AF1QipMDTPgxptzK-uhna-JRR_60MIXATOc6EVjvvvVnjRoSMXLYw1CJfuGr_-i0aYSuOg?key=dS1ydmE5VXdKbS1LLTBTcnJtZDRHRTVqWXA4ZFZn">
+      <ButtonLink href="https://photos.google.com/share/AF1QipMOZ852giOCSpcSYVUDYas960RA166SBJBRZMPM9OqKy2kkg6iPEvNmwGdiPQqgxg?key=ekZka0JtV1lJakswSlljLWdYVVhRcEF6U0VNMGVn">
         See all photos
       </ButtonLink>
     </section>
