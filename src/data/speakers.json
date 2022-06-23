@@ -1,24 +1,24 @@
 {
   "frances-marie-teves": {
     "name": "Frances Marie Teves",
-    "position": "Community Manager",
-    "company": "GDG Cebu",
-    "photo": "/assets/speakers/frances-marie-teves.jpg",
-    "bio": "Frances Marie is currently working as a Software Engineer. Her work mainly focuses on Embedded Firmware Web Development for multi-functional printers for multiple projects. Aside from her work in technical field, she is also a Community Builder and a Freelance Tech Host. She loves to help create an avenue for developers to discover and learn more about technology. She also does freelance hosting to various events, more focused in tech-related activities. She is the current Community Manager and WTM Lead for GDG Cebu."
-  },
-  "julius-uy": {
-    "name": "Julius Uy",
-    "position": "Engineering Manager",
-    "company": "Rakuten Viki",
-    "photo": "/assets/speakers/julius-uy.jpg",
-    "bio": "Julius leads the Mobile Apps and TV engineering teams in Rakuten Viki. His team works on various projects such as Siri, Apple TV, Android TV, Roku, Google Play Instant Google Home, Chromecast, Chrome OS, and Smart Displays. Their works were featured on Google I/O, WWDC, Android Developer Story, Editor's Choice, Android Excellence, and in several news sites and tech blogs."
-  },
-  "franchette-camoro": {
-    "name": "Franchette Camoro",
-    "position": "Fullstack Developer",
+    "position": "Community Builder, GDG/WTM Cebu, Technical Project Manager",
     "company": "Symph",
-    "photo": "/assets/speakers/franchette-camoro.jpg",
-    "bio": "Franchette is a Web Developer and is passionate about giving more opportunities to the local community to learn programming to build better software and products. She does this by organizing community events all year round. She also has several hobbies like yoga, reading, and binge watching on netflix."
+    "photo": "/assets/speakers/frances-marie-teves.jpg",
+    "bio": "Frances Marie is currently working as a Technical Project Manager at Symph, a software development company in Cebu. They build web and mobile applications that people love and build startups that make a difference. Before this, she was a software engineer for 6 years. This experience has helped her transition from a developer to a manager. Her ultimate life tip is to know when to ask for help when you need it! This can save you a lot of time and also inspire you to give back when others ask for your support as well 🙂 Going into this new role, she's excited to merge her dev and management skills, aiming to become the best TPM she can be.She's also a community builder from GDG Cebu and a WTM Ambassador. She also likes to talk! Catch her in the Tech IT or Leave IT podcast or Young Filipina Adult available in Spotify where she talks about tech stories and adulting adventures.Her guilty pleasures are cooking + eating ramen and watching sitcoms; any Friends, Brooklyn99, and Big Bang Theory fans there?"
+  },
+  "nhi-nguyen": {
+    "name": "Nhi Nguyen ",
+    "position": "Community Manager, Developer Relations Ecosystem SEA",
+    "company": "Google",
+    "photo": "/assets/speakers/nhi-nguyen.jpg",
+    "bio": "Ms. Nhi Nguyen is passionate about helping developers upskill, build better, and succeed through Google Developers’ community programs in Vietnam and The Philippines including Google Developer Group, Google Developer Student Clubs, Women Techmakers, and Google Developer Experts...She was once the CEO at one of the biggest incubators in Central VietNam with more than 10 years working in the startup and technology industry."
+  },
+  "carl-kho": {
+    "name": "Carl Kho ",
+    "position": "Creative Front-End Developer & Designer",
+    "company": "Symph",
+    "photo": "",
+    "bio": "Carl is a creative front-end developer at Symph.co who will be studying Computer Science (CS) at Minerva University, San Francisco. He has just completed senior high in STEM Engineering with high honors. Throughout his lifetime, Carl has regularly led the Philippines 🇵🇭 throughout a number of hackathons and robotics olympiads. A scientific humanist, he aggressively advocates for accessible education for the country via mentorship and the launch of a college preparation program. In numbers, Carl has impacted 45,000+ lifelong learners and has helped raised ₱500,000.00+ in times of need. He applauds the efforts of Neuralink and wishes to contribute to Brain-Computer Interfaces in the field of Neural Engineering. Most importantly: he is funny."
   },
   "albert-padin": {
     "name": "Albert Padin",
@@ -27,74 +27,32 @@
     "photo": "/assets/speakers/albert-padin.jpg",
     "bio": "Albert is a developer and entrepreneur who's worked on consumer, enterprise, and government software products. He is the co-founder and CTO of Symph, a design, development, and startup studio. At Symph, he has architected and developed solutions for 500 Startups, Office of the President of the Philippines, and the World Bank. Albert leads a diverse team of developers in creating software solutions. He ensures that the team's output is high quality and performs well at scale. Albert is also passionate about empowering startups and has been involved in the Philippine Startup Ecosystem, by facilitating and mentoring at Startup Weekends and other events. Prior to that, Albert started SpellDial, directed plays, and mentored street children. He studied Information Technology at the Centre for International Education Global Colleges. He lives in Cebu City, Philippines with his wife. His interests include theatre, performing arts, and the non-trivial act of eradicating poverty."
   },
-  "steve-seongug-jung": {
-    "name": "Steve SeongUg Jung",
-    "position": "Android Engineer Manager",
-    "company": "Grab",
-    "photo": "/assets/speakers/steve-seongug-jung.jpg",
-    "bio": "Since 2010, I have been developing Android Applications for consumer and enterprise. I started my career working at Daou Tech developing various applications such as messenger, calendar, email, and Mobile Application Management Service (including web). Since Dec. 2014, I became lead Android Developer at Toss Lab, Inc., an enterprise communications startup focused on the Asian market. I have contributed to the Android libraries such as Robolectric-Gradle and Engine-io-java-client. I have experience giving lectures on development. I have taught Agile to Ticket Monster developers and Open Source operations and ?contributions? to college students and professors. I enjoy helping others so feel free to ask for help. My specialities include android TDD, Good Architectures, Agile, XP, Cl, etc. I hope I can help."
-  },
-  "sean-urgel": {
-    "name": "Sean Urgel",
-    "position": "Fullstack Developer",
-    "company": "Symph",
-    "photo": "/assets/speakers/sean-urgel.jpg",
-    "bio": "Sean is passionate about making thoughts a reality by creating meaningful products. He puts into action his principles of commitment, consistent hard work, willingness to change and adapt in product development by being a self-taught full-stack developer specializing in React development [at Symph]. He actively shares to the community his learnings and perspective in Medium."
-  },
-  "arnelle-balane": {
-    "name": "Arnelle Balane",
-    "position": "Software Developer",
-    "company": "Newlogic",
-    "photo": "/assets/speakers/arnelle-balane.jpg",
-    "bio": "Arnelle is a Web developer from Cebu, Philippines who enjoys building things with good old HTML, CSS, JavaScript, and Web Platform APIs. He co-organizes GDG Cebu and is an active volunteer and speaker for other local JavaScript communities. He experiments with cool new Web technologies and writes about them in his blog. When not busy experimenting with new Web APIs, he can also taking photos, playing video games, or practicing his card tricks. Other than that he's probably sleeping."
-  },
-  "henry-lim": {
-    "name": "Henry Lim",
-    "position": "Frontend Web Developer",
-    "company": "Apppi",
-    "photo": "/assets/speakers/henry-lim.jpg",
-    "bio": "Henry Lim is a Malaysian front-end software developer currently based in Thailand, Bangkok. He’s a big fan of Google’s cutting-edge technologies, including Progressive Web Apps, Project Fugu, Preact, and Firebase. He will stop at nothing to educate everyone around him about them. While he’s not coding, he likes to play piano and listen to his favorite band - Mayday."
-  },
-  "jecelyn-yeen": {
-    "name": "Jecelyn Yeen",
-    "position": "Google Developer Expert",
-    "company": "Angular and Web Technologies",
-    "photo": "/assets/speakers/jecelyn-yeen.jpg",
-    "bio": "Jecelyn speaks English, Mandarin, C#, Typescript, JavaScript and Angular. Web development ninja by nature, Software architect by profession, she is also a Google Developer Expert (GDE) in Angular & director of Women Who Code KL. She funnels her passion in tech into publishing articles as well as sharing her knowledge via workshops and conferences and meet-ups. Ironically her favourite past time away from work involves travelling to remote islands without WiFi for deep sea diving expeditions and reading books with tangible covers."
-  },
-  "shang-yi-lim": {
-    "name": "Shang Yi Lim",
-    "position": "Software Developer",
-    "company": "IdealHub",
-    "photo": "/assets/speakers/shang-yi-lim.jpg",
-    "bio": "Shang Yi loves what's interesting in technology. He mainly works with Java, Angular, HTML5, Typescript. During the weekends he occasionally codes on Ionic sometimes cluelessly tinkerers with Arduino . When he feels like he needs a change of scenery, he occasionally tries his hands on baking and cooking. He is has a quirky sense of humor and likes to indulge in creepypastas, and occasionally binge on DIY videos."
-  },
-  "ren-stanforth": {
-    "name": "Ren Stanforth",
-    "position": "Software Engineer",
-    "company": "Inspire Team",
-    "photo": "/assets/speakers/ren-stanforth.jpg",
-    "bio": "Renee Stanforth is a software engineer from Inspire Team who is an aspiring IoT tinkerer. She has been an enthusiast and a member of the Internet of Things Cebu since 2016. She believes that there's something new to learn everyday as technology evolves exponentially."
-  },
-  "dennis-alund": {
-    "name": "Dennis Alund",
-    "position": "Founder",
-    "company": "Kumpul Coworking Space",
-    "photo": "/assets/speakers/dennis-alund.jpg",
-    "bio": "Dennis is a software developer and community enthusiast who started to explore programming in his teenage years, long before he owned a computer of his own. He went to study computer science at university and has been living and working as a freelance software consultant in Indonesia since 2009. His passion for active citizenship and community empowerment has manifested itself as Kumpul coworking space (www.kumpul.co). It is the first coworking space in Bali to bring in collaboration with government, national partners and community programs to the island. He has been actively involved in initiating Google community programs such as Indonesia Android Kejar and GDG Bali. He is now mostly active in Oddbit (www.oddbit.id), a consultancy agency that develops software solutions with focus on Firebase."
-  },
-  "jason-zaman": {
-    "name": "Jason Zaman",
-    "position": "Gentoo Linux and Android Developer",
+  "tamas-piros": {
+    "name": "Tamas Piros",
+    "position": "Google Developer Expert for Web ",
     "company": "",
-    "photo": "/assets/speakers/jason-zaman.jpg",
-    "bio": "Jason is community lead for TensorFlow SIG-Build and an ML-GDE. He works as a machine learning engineer at Light doing computational photography in mobile cameras. Along with speaking regularly, he is also active in Open Source as a Gentoo Linux developer and maintainer of the SELinux Project."
+    "photo": "/assets/speakers/tamas-piros.jpg",
+    "bio": "Tamas is a Google Developer Expert in Web Technologies and a Developer Experience Engineer. He has more than a decade of experience delivering technical training to large, prestigious organizations. He is passionate about unlocking the latest & greatest features of web development."
   },
-  "desmond-teo": {
-    "name": "Desmond Teo",
-    "position": "Android Developer",
-    "company": "Rakuten Viki",
-    "photo": "/assets/speakers/desmond-teo.jpg",
-    "bio": "Android developer at Rakuten Viki, working on delivering the best app experience for millions of fans around the world. Was an iOS developer before that, but fell in love with Android and the passionate community around the platform. Outside of tech, loves nature and the outdoors. Huge fan of football and Liverpool FC."
+  "brian-dominic-padilla": {
+    "name": "Brian Dominic Padilla",
+    "position": "Chief Marketing Strategist",
+    "company": "Bright Strategies",
+    "photo": "/assets/speakers/brian-dominic-padilla.jpg",
+    "bio": "Brian Padilla is an entrepreneur, a digital marketing trainer, consultant, and solutions provider to several local and international e-commerce businesses in the Philippines today. He is a Google Ads and a Google Analytics Certified Partner and is well-versed in Lead Generation and Search Engine Marketing, helping many local businesses generate more leads and sales online. Brian has been a trainer for the Department of Information and Communications Technology, where he has helped thousands of students, professionals, freelancers, and business owners with various digital marketing training seminars and workshops. He also conducted numerous training and provided consultation services to several corporations all over the Philippines including real estate companies and brokerage firms including SM Development Corporation and Robinsons Land Corporation. Today, Brian leads Bright Strategies Marketing and Consulting, a digital marketing agency he founded that specializes in providing smart digital marketing solutions to businesses, especially those in e-commerce, and those who want to scale their businesses online. Bright Strategies is a member of the Canadian Chamber of Commerce and BNI (Business Network International)."
+  },
+  "gary-lloyd-senoc": {
+    "name": "Gary Lloyd Senoc",
+    "position": "Software Engineer",
+    "company": "In Silence AI",
+    "photo": "/assets/speakers/gary-lloyd-senoc.jpg",
+    "bio": "Gary is a software engineer at In Silence AI, a former Google Developer Student Club Lead and an incoming 4th year computer science student  at Cebu Institute of Technology - University. Gary ventured into tech early and limitlessly spans borders by joining competitions and working with international clients. As an incoming fourth year computer science student, he continuously scales his experience in the tech industry by joining hackathons, building software solutions for different organizations, and speaking in university events to inspire students who dare to fearlessly dream and venture into technology."
+  },
+  "gee-quidet": {
+    "name": "Gee Quidet",
+    "position": "Sales Executive",
+    "company": "Symph",
+    "photo": "",
+    "bio": ""
   }
 }

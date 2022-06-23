@@ -8,7 +8,7 @@ const ScheduleItem = ({ session }) => {
   return (
     <div
       class={[style.schedule, session.full && style.scheduleFull].join(' ')}
-      style={{ 'grid-row-end': `span ${session.span || 1}` }}
+      style={{ 'grid-row-end': 'span 1' }}
     >
       <h2 class={style.title}>{data.title}</h2>
       <p class={style.duration}>
@@ -19,9 +19,12 @@ const ScheduleItem = ({ session }) => {
         <div class={style.speakers}>
           {data.speakers.map((speakerKey) => {
             const speaker = speakers[speakerKey];
+            console.log(speaker, speakerKey);
             return (
               <div class={style.speaker}>
-                <img class={style.speakerPhoto} src={speaker.photo} alt={speaker.name} />
+                {speaker.photo && (
+                  <img class={style.speakerPhoto} src={speaker.photo} alt={speaker.name} />
+                )}
                 <h4 class={style.speakerName}>{speaker.name}</h4>
               </div>
             );
