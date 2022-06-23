@@ -28,7 +28,7 @@ const InfoBlock = () => (
       <LayoutGrid.Cell tabletCols="12" desktopCols="5" class={style.stats}>
         <InfoStat value="150" label="Attendees" />
         <InfoStat value="1" label="Day" />
-        <InfoStat value="5" label="Breakout Session" />
+        <InfoStat value="5" label="Breakout Sessions" />
       </LayoutGrid.Cell>
     </LayoutGrid.Inner>
   </LayoutGrid>
