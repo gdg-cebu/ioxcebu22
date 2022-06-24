@@ -1,5 +1,15 @@
 [
   {
+    "label": "Organized by",
+    "items": [
+      {
+        "name": "WTM Cebu",
+        "url": "https://www.facebook.com/wtm.cebu/",
+        "logo": "/assets/partners/wtm-cebu.png"
+      }
+    ]
+  },
+  {
     "label": "General partner",
     "items": [
       {
@@ -10,43 +20,27 @@
     ]
   },
   {
-    "label": "In cooperation with",
+    "label": "In Cooperation With",
     "items": [
       {
-        "name": "PLDT",
-        "url": "https://www.facebook.com/PLDTInnolab/",
-        "logo": "/assets/partners/pldt.png"
+        "name": "Symph",
+        "url": "https://www.symph.co/",
+        "logo": "/assets/partners/symphco.png"
       }
     ]
   },
   {
-    "label": "Special thanks",
+    "label": "Co-presented by",
     "items": [
       {
-        "name": "Arcanys",
-        "url": "https://www.arcanys.com/",
-        "logo": "/assets/partners/arcanys.png"
+        "name": "IT Genius",
+        "url": "https://www.itgenius.com/",
+        "logo": "/assets/partners/itgenius.png"
       },
       {
-        "name": "Yondu",
-        "url": "https://www.yondu.com/",
-        "logo": "/assets/partners/yondu.png"
-      }
-    ]
-  },
-  {
-    "label": "Amazing supporters",
-    "items": [
-      {
-        "name": "DICT",
-        "url": "https://dict.gov.ph/",
-        "logo": "/assets/partners/dict.png",
-        "height": 68
-      },
-      {
-        "name": "Bubble Tea Station",
-        "url": "https://www.facebook.com/bubbleteastation/",
-        "logo": "/assets/partners/bubble-tea-station.png"
+        "name": "CoDev",
+        "url": "https://www.codev.com/",
+        "logo": "/assets/partners/codev.png"
       }
     ]
   }
