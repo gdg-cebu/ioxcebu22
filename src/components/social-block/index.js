@@ -1,5 +1,5 @@
 import style from './style';
-import hashtagGif from '../../images/io19-hashtag.gif';
+import ioextended from '../../images/io-extended-cebu.png';
 
 const SocialBlock = () => (
   <section class={style.social}>
@@ -34,7 +34,7 @@ const SocialBlock = () => (
       </div>
     </div>
 
-    <img src={hashtagGif} />
+    <img src={ioextended} />
   </section>
 );
 

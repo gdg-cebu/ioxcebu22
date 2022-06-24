@@ -20,16 +20,6 @@
     ]
   },
   {
-    "label": "In Cooperation With",
-    "items": [
-      {
-        "name": "Symph",
-        "url": "https://www.symph.co/",
-        "logo": "/assets/partners/symphco.png"
-      }
-    ]
-  },
-  {
     "label": "Co-presented by",
     "items": [
       {
@@ -41,6 +31,16 @@
         "name": "CoDev",
         "url": "https://www.codev.com/",
         "logo": "/assets/partners/codev.png"
+      }
+    ]
+  },
+  {
+    "label": "In Cooperation With",
+    "items": [
+      {
+        "name": "Symph",
+        "url": "https://www.symph.co/",
+        "logo": "/assets/partners/symphco.png"
       }
     ]
   }
