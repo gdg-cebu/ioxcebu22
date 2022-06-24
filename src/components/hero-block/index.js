@@ -11,7 +11,7 @@ const HeroBlock = () => (
         Google experts, and a first look at Google’s latest developer products.
       </h2>
 
-      <h3>July 2, 2022 &middot; Golden Prince Hotel</h3>
+      <h3>July 2, 2022 &middot; Hotel Elizabeth</h3>
 
       <ButtonLink href="https://bit.ly/GoogleIOCebuRegistration">Register Now</ButtonLink>
     </div>
