@@ -6,6 +6,12 @@
         "name": "WTM Cebu",
         "url": "https://www.facebook.com/wtm.cebu/",
         "logo": "/assets/partners/wtm-cebu.png"
+      },
+      {
+        "name": "GDG Cebu",
+        "url": "https://www.facebook.com/gdgcebuorg/",
+        "logo": "/assets/gdg-cebu.png",
+        "height": 64
       }
     ]
   },
