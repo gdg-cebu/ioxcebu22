@@ -55,7 +55,7 @@ class Header extends Component {
           <Drawer.DrawerHeader class={style.drawerHeader}>
             <img src={logo} alt="Google I/O Logo" />
             <h2>July 2, 2022</h2>
-            <h3>J Centre, Mandaue City</h3>
+            <h3>Hotel Elizabeth, Cebu City</h3>
           </Drawer.DrawerHeader>
           <Drawer.DrawerContent>
             <Drawer.DrawerItem selected={currentRoute === '/'} onClick={() => this.linkTo('/')}>

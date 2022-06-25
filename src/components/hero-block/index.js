@@ -13,7 +13,7 @@ const HeroBlock = () => (
 
       <h3>July 2, 2022 &middot; Hotel Elizabeth</h3>
 
-      <ButtonLink href="https://bit.ly/GoogleIOCebuRegistration">Register Now</ButtonLink>
+      <ButtonLink href="https://bit.ly/IOXCebuReregistration">Register Now</ButtonLink>
     </div>
 
     <img
