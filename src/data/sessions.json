@@ -30,10 +30,11 @@
     "speakers": ["gary-lloyd-senoc"]
   },
   "109": {
-    "title": "Lightning Talks: TBD"
+    "title": "Lightning Talks: Basic Software QA Testing",
+    "speakers": ["eve-adora-macasero"]
   },
   "110": {
-    "title": "<strike>Aladin</strike> AlloyDB (A wish come true): \"A whole new <strike>world</strike> planet-scale Database\"",
+    "title": "<strike>Aladin</strike> AlloyDB (A wish come true): \"A whole new <strike>world</strike> planet-scale database\"",
     "speakers": ["albert-padin"]
   },
   "111": {
