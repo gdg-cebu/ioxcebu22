@@ -26,6 +26,16 @@
     ]
   },
   {
+    "label": "Presented by",
+    "items": [
+      {
+        "name": "Accenture",
+        "url": "https://www.accenture.com/ph-en",
+        "logo": "/assets/partners/accenture.png"
+      }
+    ]
+  },
+  {
     "label": "Co-presented by",
     "items": [
       {
